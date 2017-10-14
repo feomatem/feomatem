@@ -14,6 +14,9 @@
 	/* .last-line {margin-bottom: 20px;} */
         
         html, body {height: 100%;}
+	    
+	body {font-family: "Helvetica", sans-serif;}
+	    
         .wrapper {  display: flex;  flex-direction: column;  height: 100%;}
         .content {  flex: 1 0 auto;
                     margin-left: 10%;}
@@ -56,13 +59,25 @@
 	            background:#5ec79e;
 	            color:#fff;}
       
-          .my-large-text p {font-size: 1.2em; margin-bottom: 0.1em;}
+         .my-large-text p {font-family:  "Helvetica Neue", "Helvetica", sans-serif;
+		          font-size: 1.0em; margin-bottom: 0.1em;}
 	    
-	  /*.my-normal-text p {font-size: 1.0em; margin-bottom: 0.1em;} */
+	.my-large-text li {list-style-type: disc;
+		          font-family:  "Helvetica Neue", "Helvetica", sans-serif;
+		          font-size: 1.0em; margin-bottom: 0.15em;}
+	
+	.my-large-text h2 {font-family:  "Helvetica Neue", "Helvetica", sans-serif; 
+		           font-size: 1.2em; margin-bottom: 0.1em;}
+
+	.my-large-text h3 {font-style: italic;
+		           font-family:  "Helvetica Neue", "Helvetica", sans-serif; 
+		           font-size: 1.1em; margin-bottom: 0.1em;}
+	    
+	  /*.my-normal-text p {font-size: 1.0em; margin-bottom: 0.1em;}
 	    
 	  .my-normal-text h2 {font-family: sans-serif;  }
 	    
-	  .my-normal-text h3 {font-weight: normal; font-style: italic; font-family: sans-serif;  }
+	  .my-normal-text h3 {font-weight: normal; font-style: italic; font-family: sans-serif;  }  */
 	    
 	 * {margin: 0;  padding: 0;} 
 	
@@ -80,7 +95,7 @@
         <div id="logo"><p><a href="index.html"><img src="images/logo.png" alt="logo" align="middle"></a>&nbsp;&nbsp;Математика. 9 класс</p></div> 
     </div>
 
-    <div class="my-normal-text">
+    <div class="my-large-text">
     <h2>Подготовка к ГВЭ</h2>
     <ul>
     	<li>Официальные демоверсии-2017&nbsp;<a href="http://fipi.ru/oge-i-gve-9/gve-9">fipi.ru/oge-i-gve-9/gve-9</a></li>
