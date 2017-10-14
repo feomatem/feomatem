@@ -12,6 +12,9 @@
         .block-math {display: block;}   
         
         html, body {height: 100%;}
+	    
+	body {font-family: "Helvetica", sans-serif;}
+	    
         .wrapper {  display: flex;  flex-direction: column;  height: 100%;}
         .content {  flex: 1 0 auto;
                     margin-left: 10%;}
@@ -53,7 +56,15 @@
 	            background:#5ec79e;
 	            color:#fff;}
       
-        .my-large-text p {font-size: 1.2em; margin-bottom: 0.1em;}
+        .my-large-text p {font-family:  "Helvetica Neue", "Helvetica", sans-serif;
+		          font-size: 1.0em; margin-bottom: 0.1em;}
+	    
+	.my-large-text li {list-style-type: disc;
+		          font-family:  "Helvetica Neue", "Helvetica", sans-serif;
+		          font-size: 1.0em; margin-bottom: 0.15em;}
+	
+	.my-large-text h2 {font-family:  "Helvetica Neue", "Helvetica", sans-serif; 
+		           font-size: 1.2em; margin-bottom: 0.1em;}
 	    
 	 * {margin: 0;  padding: 0;} 
 	
@@ -68,7 +79,7 @@
 <div class="wrapper">
 <div class="content">
     <div class="header" id="banner">        
-        	<div id="logo"><a href="index.html"><img src="images/logo.png" alt="logo"></a></div> 
+        	<div id="avatar"><a href="index.html"><img src="images/avatar.png" alt="avatar"></a></div> 
     </div>
 
     <div class="my-large-text">
