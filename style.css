@@ -22,7 +22,7 @@
 
     /*MAIN MENU*/
         .srt-menu{ clear:both;
-	               margin-bottom:40px; margin-top: 3px;}
+	               margin-bottom:40px;}
 	    .srt-menu ul { list-style-type: none; }
 	    .srt-menu li {display: inline;}
         .srt-menu li a {
