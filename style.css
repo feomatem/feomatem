@@ -4,7 +4,7 @@
 
          body {font-family: "Verdana", "Geneva", sans-serif;}
 
-        .header{ text-align:left; font-size: 1.5em; font-weight: italic;} 
+        .header{ text-align:left; font-size: 1.5em; font-style: italic;} 
      	    
 	    /* structure */
 	    
@@ -23,10 +23,7 @@
 	
     /* #logo {display: inline-block;}*/
 
-     img.displayed {
-         display: block;
-         margin-left: auto;
-         margin-right: auto }
+     img.displayed { align: middle;  }
 
     /*MAIN MENU*/
         .srt-menu{ clear:both;
