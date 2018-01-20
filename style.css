@@ -5,6 +5,8 @@
          body {font-family: "Helvetica Neue", "Helvetica", sans-serif;}
 
         .header{font-size: 1.5em; font-style: italic;} 
+         
+        .header{height: 1.5em; line-height: 1.5em;}
      	    
 	    /* structure */
 	    
@@ -26,8 +28,6 @@
     .header.slogan { float: right; margin-right: 2em; margin-top: 0.5em;}
     
     .header.logo {float: left; margin-left: 1.5em; margin-top: 0.5em;}
-
-    .site-name {position: absolute;  top: 50%;}
 
     /*MAIN MENU*/
         .srt-menu{ clear:both;
