@@ -21,8 +21,9 @@
         .header{   padding:15px 0;   }  
 
     /*MAIN MENU*/
+        .my-menu { margin-top: 20px; margin-left: 0px;}
         .srt-menu{ clear:both;
-	               margin-bottom:60px;}
+	               margin-bottom:40px;}
 	    .srt-menu ul { list-style-type: none; }
 	    .srt-menu li {display: inline;}
         .srt-menu li a {
