@@ -21,11 +21,13 @@
         .header{   padding:15px 0;   }
       
 	
-    /* #logo {display: inline-block;}*/
+    /* align logo */
 
     .header.slogan { float: right; margin-right: 2em; margin-top: 0.5em;}
     
     .header.logo {float: left; margin-left: 1.5em; margin-top: 0.5em;}
+
+    .site-name {position: absolute;  top: 50%;}
 
     /*MAIN MENU*/
         .srt-menu{ clear:both;
