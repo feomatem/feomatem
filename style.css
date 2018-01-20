@@ -23,7 +23,8 @@
 	
     /* #logo {display: inline-block;}*/
 
-     .my-inline { display: inline-block;}
+    img.displayed{ float: right;
+	    padding-left: 10px;}
 
     /*MAIN MENU*/
         .srt-menu{ clear:both;
