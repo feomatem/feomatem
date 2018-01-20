@@ -16,9 +16,14 @@
         .wrapper{  width: 100%; 
 	               margin: 0 auto;  }
         .header{   padding:15px 0;   }
-        #banner{ text-align:left; font-size: 1.5em; font-weight: bold;} 
+        .banner{ text-align:left; font-size: 1.5em; font-weight: italic;} 
 	
     /* #logo {display: inline-block;}*/
+
+     img.displayed {
+         display: block;
+         margin-left: auto;
+         margin-right: auto }
 
     /*MAIN MENU*/
         .srt-menu{ clear:both;
@@ -35,20 +40,21 @@
         .srt-menu li a:hover{
 	            background:#5ec79e;
 	            color:#fff;}
-	/* Main text */
-	.my-large-text p {font-family:  "Helvetica Neue", "Helvetica", sans-serif;
+	
+/* Main text */
+	.my-large-text p {font-family:  "Verdana", "Geneva", sans-serif;
 		          font-size: 1.0em; margin-bottom: 0.1em;}
 	    
 	.my-large-text li {list-style-type: disc;
-		          font-family:  "Helvetica Neue", "Helvetica", sans-serif;
+		          font-family:  "Verdana", "Geneva", sans-serif;
 		          font-size: 1.0em; margin-bottom: 0.15em;}
 	
-	.my-large-text h2 {font-family:  "Helvetica Neue", "Helvetica", sans-serif; 
+	.my-large-text h2 {font-family:  "Verdana", "Geneva", sans-serif; 
 		           font-size: 1.2em; margin-bottom: 0.1em;}
 	    
 	 .my-pic {clear: both;}
       
-    * {margin: 0;  padding: 0;} 
+   /*  * {margin: 0;  padding: 0;} */
 	
     /* gluing fotter to bottom as given in http://dimox.name/press_footer_bottom_with_css
          I only added margin-left: 10%;  margin-bottom: 10%; */
