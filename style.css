@@ -6,7 +6,7 @@
 
         .header{font-size: 1.5em; font-style: italic;} 
          
-        .header{height: 1.5em; line-height: 1.5em;}
+        .header{height: 5em; line-height: 5em;}
      	    
 	    /* structure */
 	    
@@ -25,9 +25,9 @@
 	
     /* align logo */
 
-    .header.slogan { float: right; margin-right: 2em; margin-top: 0.5em; margin-bottom: 2em;}
+    .header.slogan { float: right; margin-right: 2em; margin-top: 0.5em;}
     
-    .header.logo {float: left; margin-left: 1.5em; margin-top: 0.5em; margin-bottom: 2em;}
+    .header.logo {float: left; margin-left: 1.5em; margin-top: 0.5em;}
 
     /*MAIN MENU*/
         .srt-menu{ clear:both;
