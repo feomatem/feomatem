@@ -1,1 +1,64 @@
+         body {font-family: "Verdana", "Geneva", sans-serif;}
+
+         html, body {height: 100%;}
+     
+       	    
+	    /* structure */
+	    
+        .wrapper {  display: flex;  flex-direction: column;  height: 100%;}
+        .content {  flex: 1 0 auto;
+                    margin-left: 10%;}
+        .footer {  flex: 0 0 auto;
+                   margin-left: 10%;
+                   margin-bottom: 10%;}  
+	    
+   
+        .wrapper{  width: 100%; 
+	               margin: 0 auto;  }
+        .header{   padding:15px 0;   }
+        #banner{ text-align:left; font-size: 1.5em; font-weight: bold;} 
+	
+    /* #logo {display: inline-block;}*/
+
+    /*MAIN MENU*/
+        .srt-menu{ clear:both;
+	               margin-bottom:60px;}
+	    .srt-menu ul { list-style-type: none; }
+	    .srt-menu li {display: inline;}
+        .srt-menu li a {
+	            color:#666;
+	            background:#dadada;
+	        	margin:1px 0; 
+	            padding:10px;
+	            text-decoration:none;
+	            font-size: 1.5em;}
+        .srt-menu li a:hover{
+	            background:#5ec79e;
+	            color:#fff;}
+	/* Main text */
+	.my-large-text p {font-family:  "Helvetica Neue", "Helvetica", sans-serif;
+		          font-size: 1.0em; margin-bottom: 0.1em;}
+	    
+	.my-large-text li {list-style-type: disc;
+		          font-family:  "Helvetica Neue", "Helvetica", sans-serif;
+		          font-size: 1.0em; margin-bottom: 0.15em;}
+	
+	.my-large-text h2 {font-family:  "Helvetica Neue", "Helvetica", sans-serif; 
+		           font-size: 1.2em; margin-bottom: 0.1em;}
+	    
+	 .my-pic {clear: both;}
+      
+    * {margin: 0;  padding: 0;} 
+	
+    /* gluing fotter to bottom as given in http://dimox.name/press_footer_bottom_with_css
+         I only added margin-left: 10%;  margin-bottom: 10%; */
+
+   /* old pieces */
+     frac-main {	width: 4em; }
+     .frac-part {	width: 100%;}
+     .inline-text {display: inline-block;
+                      vertical-align: inherit;}
+      .inline-math {display: inline-block;
+                      vertical-align: middle;}
+      .block-math {display: block;} 
 
