@@ -25,9 +25,9 @@
 	
     /* align logo */
 
-    .header.slogan { float: right; margin-right: 2em; margin-top: 0.5em;}
+    .header.slogan { float: right; margin-right: 2em; margin-top: 0.5em; margin-bottom: 2em;}
     
-    .header.logo {float: left; margin-left: 1.5em; margin-top: 0.5em;}
+    .header.logo {float: left; margin-left: 1.5em; margin-top: 0.5em; margin-bottom: 2em;}
 
     /*MAIN MENU*/
         .srt-menu{ clear:both;
