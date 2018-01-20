@@ -1,8 +1,11 @@
+         html, body {height: 100%;}
+
+          /* font */
+
          body {font-family: "Verdana", "Geneva", sans-serif;}
 
-         html, body {height: 100%;}
-     
-       	    
+        .header{ text-align:left; font-size: 1.5em; font-weight: italic;} 
+     	    
 	    /* structure */
 	    
         .wrapper {  display: flex;  flex-direction: column;  height: 100%;}
@@ -11,12 +14,12 @@
         .footer {  flex: 0 0 auto;
                    margin-left: 10%;
                    margin-bottom: 10%;}  
-	    
+	   
    
         .wrapper{  width: 100%; 
 	               margin: 0 auto;  }
         .header{   padding:15px 0;   }
-        .banner{ text-align:left; font-size: 1.5em; font-weight: italic;} 
+      
 	
     /* #logo {display: inline-block;}*/
 
