@@ -4,7 +4,7 @@
 
          body {font-family: "Helvetica Neue", "Helvetica", sans-serif;}
 
-        .header{ text-align:left; font-size: 1.25em; font-style: italic;} 
+        .header{font-size: 1.5em; font-style: italic;} 
      	    
 	    /* structure */
 	    
@@ -23,8 +23,9 @@
 	
     /* #logo {display: inline-block;}*/
 
-    img.displayed{ float: right;
-	    padding-left: 10px;}
+    header.slogan { float: right; margin-right: 2em; margin-top: 0.5em;}
+    
+    header.logo {float: left; margin-left: 1.5em; margin-top: 0.5em;}
 
     /*MAIN MENU*/
         .srt-menu{ clear:both;
